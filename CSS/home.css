@@ -2,7 +2,7 @@ body {
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
     word-spacing: 5px;
-    -webkit-user-select:none;
+	user-select: none;
 }
 h1{
 	font-size: 30px;
@@ -21,6 +21,7 @@ button{
     font-size: 15px;
     box-shadow: 2px 2px 5px #010203;
     border-radius: 15px;
+	cursor: pointer;
 }
 button:active{
 	transform: scale(0.98);
@@ -37,7 +38,6 @@ button:active{
 	right: -60px;
 	cursor: pointer;
 	font-size: 15px;
-	cursor: default;
 }
 #arr_size{
 	height: 5px;
